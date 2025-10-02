@@ -1,4 +1,6 @@
-    class Solution {
+import java.lang.reflect.Array;
+
+class Solution {
     public int[] twoSum(int[] nums, int target) {
         int[] arr = new int[2];
         for (int i=0; i<nums.length; i++){
@@ -30,7 +32,7 @@ int[] nums = {2, 4, 11, 3};
 
         int[] result = solution.twoSum(nums, target); 
         
-        
+    
         System.out.println("[" + result[0] + ", " + result[1] + "]");
     }
     
