@@ -6,7 +6,6 @@ import java.util.Set;
 
 class Solution {
     public boolean isValid(String s) {
-        
 
         // I used stack and map strustures.
 
